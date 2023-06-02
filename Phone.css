@@ -1,0 +1,56 @@
+#home{
+    height:820px;
+}
+.heading{
+    font-size:1.7rem;
+}
+#pic img{
+    width:300px;
+    height:175px;
+}
+#intro h2{
+    font-size:1.5rem;
+}
+.gallery img{
+    width:250px;
+    height: 150px;
+    margin: 10px;
+}
+.input{
+    width:80%; 
+}
+#msg{
+    width:70%;
+}
+#send{
+    width:70;
+}
+.footerbar{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:black rgb(0,0,0,0,5);
+    position:relative;
+    top:0;
+}
+.footerbar ul{
+    display:flex;
+    list-style: none;
+    margin:20px 0px;
+}
+.footerbar ul li{
+font-family:century;
+font-size:1.1rem;
+font-weight:bold;
+}
+.footerbar ul li a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    padding:5px 10px;
+    transition:all .5s ease;
+}
+.footerbar ul li a:hover{
+background-color:white;
+color:black;
+box-shadow: 0 0 10px white;
+}
